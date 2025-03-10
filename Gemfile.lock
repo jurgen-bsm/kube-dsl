@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     kube-dsl (0.8.0)
-      dry-inflector (~> 0.2)
+      dry-inflector (~> 1.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -16,7 +16,7 @@ GEM
     curdle (1.2.2)
       parser (~> 3.1)
     diff-lcs (1.6.0)
-    dry-inflector (0.3.0)
+    dry-inflector (1.2.0)
     erubi (1.13.1)
     highline (2.0.3)
     method_source (1.1.0)
@@ -60,6 +60,7 @@ GEM
       sorbet-static (= 0.5.11865)
     sorbet-runtime (0.5.11865)
     sorbet-static (0.5.11865-universal-darwin)
+    sorbet-static (0.5.11865-x86_64-linux)
     sorbet-static-and-runtime (0.5.11865)
       sorbet (= 0.5.11865)
       sorbet-runtime (= 0.5.11865)
@@ -88,6 +89,7 @@ GEM
 PLATFORMS
   arm64-darwin-23
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   curdle (~> 1.2)
